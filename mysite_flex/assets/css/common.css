@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+.wrap{position:relative;width:1024px;margin:0 auto;}
+
+
+/* 레이아웃 */
+
+/* header*/
+header{display:flex;justify-content:space-between;align-items:center;height:60px;padding:0 10px;}
+header h1{}
+header h1 a{font-size:32px;line-height:normal;font-weight:600;}
+header .log_box .log_list{font-size:0;line-height:normal;}
+header .log_box .log_item{display:inline-block;vertical-align:top;}
+header .log_box .log_item:nth-child(n+2){margin-left:6px;}
+header .log_box .log_item .log_link{display:block;font-size:14px;padding:4px 6px;box-sizing:border-box;border:1px solid #ccc;border-radius:6px;}
+
+/* nav */
+nav{position:relative;}
+nav .depth1{border-top:2px solid #000;border-bottom:2px solid #000;}
+nav .depth1_list{display:flex;justify-content:space-evenly;/*align-items:center;*/}
+nav .depth1_item{flex:1 1 auto;}
+nav .depth1_link{display:block;padding:20px 40px;text-align:center;font-size:20px;line-height:normal;font-weight:600;}
+
+#container{display:flex;position:relative;}
+#container .img-box{width:300px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

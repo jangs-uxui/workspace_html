@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/* flex */
+
+.flex{display:flex;justify-content:flex-start; align-items:center; min-height:250px;width:500px;border:1px solid #000;color:#fff;font-weight:600;}
+.flex + .flex{margin-top:30px;}
+.flex.row{display:flex;flex-direction:row;}
+.flex.col{display:flex;flex-direction:column;}
+
+[class^="item"]{padding:20px;text-align:center;}
+.item01{background-color:darkred;font-size:15px;align-self:flex-start;}
+.item02{background-color:darkblue;font-size:20px;}
+.item03{background-color:darkgreen;font-size:25px;}
+
+

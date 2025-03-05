@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>html공부하기 - 테이블 심화</title>
+</head>
+
+<body>
+    목차
+    <ol>
+        <li><a href="./ex01.html">01.h1~h6요소</a></li>
+        <li><a href="./ex02.html">02.p요소, br요소, blockquote요소, q요소, strong,b,em,i요소</a></li>
+        <li><a href="./ex03.html">03.ol ul 요소</a></li>
+        <li><a href="./ex04.html">04.a요소</a></li>
+        <li><a href="./ex05.html">05.테이블</a></li>
+        <li><a href="./ex06.html">06.테이블 모든요소</a></li>
+        <li><a href="./ex07.html">07.폼(form)요소</a></li>
+        <li><a href="./ex08.html">08.폼(form)요소-input(checkbox,radio)</a></li>
+    </ol>
+
+    <hr>
+
+    <h1>html공부하기</h1>
+    <h2>테이블 모든요소 적용</h2>
+    <table border="1">
+        <caption>제주특별자치도 학교현황</caption>
+        <colgroup>
+            <col style="width:120px;">
+            <col>
+            <col>
+            <col>
+            <col>
+        </colgroup>
+        <thead>
+            <tr>
+                <th>구분</th>
+                <th>학교수</th>
+                <th>학급수</th>
+                <th>학생수</th>
+                <th>교원수</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>유치원</th>
+                <td>117</td>
+                <td>252</td>
+                <td>5547</td>
+                <td>474</td>
+            </tr>
+            <tr>
+                <th>초등학교</th>
+                <td>111</td>
+                <td>1720</td>
+                <td>37686</td>
+                <td>2632</td>
+            </tr>
+            <tr>
+                <th>중학교</th>
+                <td>44</td>
+                <td>699</td>
+                <td>21274</td>
+                <td>1412</td>
+            </tr>
+        <tfoot>
+            <tr>
+                <th>합계</th>
+                <td>272</td>
+                <td>2671</td>
+                <td>64507</td>
+                <td>4518</td>
+            </tr>
+        </tfoot>
+        </tbody>
+    </table>
+
+    <br>
+
+    <table border="1">
+        <caption>모집분야</caption>
+        <thead>
+            <tr>
+                <th scope="col" colspan="2">모집직군</th>
+                <th scope="col">모집전공</th>
+                <th scope="col">비고</th>
+                <th scope="col">근무지</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row" colspan="2">생산기술직</th>
+                <td>화학공학</td>
+                <td rowspan="3">전공관련 자격증 우대</td>
+                <td rowspan="5">충남 서산</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="2">생산지원직</th>
+                <th scope="row">공무</th>
+                <td>기계, 전기</td>
+            </tr>
+            <tr>
+                <th scope="row">안전환경</th>
+                <td>안전, 환경</td>
+            </tr>
+            <tr>
+                <th scope="row" colspan="2">연구개발직</th>
+                <td>화학, 화학공학</td>
+                <td>석사</td>
+            </tr>
+            <tr>
+                <th scope="row" colspan="2">경영지원직</th>
+                <td>상경계열</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th scope="row" colspan="2">영업마케팅직</th>
+                <td>상경계열</td>
+                <td></td>
+                <td>서울 중구</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+</body>
+
+</html>

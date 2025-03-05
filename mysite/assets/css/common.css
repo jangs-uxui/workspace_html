@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* 2025.02 - 장희용 */
+
+/* 기본셋팅 */
+body{font-family:"Noto Sans", sans-serif;font-size:16px;font-weight:400;line-height:normal;letter-spacing:0;color:#222;}
+.wrap{position:relative;width:1000px;margin:0 auto;}
+.clearfix::after{display:table;content:'';clear:both;}
+
+
+/* header */
+#header{position:relative;}
+#header .header_inner{height:60px;padding:6px 0 10px;box-sizing:border-box;}
+#header h1{float:left;font-size:32px;}
+#header h1 a{font-weight:700;color:#356EFC;text-decoration:none;}
+#header .log_box{float:right;margin-top:10px;}
+#header .log_box .log_list{font-size:0;line-height:0;}
+#header .log_box .log_item{display:inline-block;vertical-align:top;}
+#header .log_box .log_item:nth-child(n+2){margin-left:6px;}
+#header .log_box .log_item .log_link{display:block;padding:4px 8px;border:1px solid #666;border-radius:4px;font-size:14px;line-height:normal;}
+
+/* nav */
+.main_menu{position:relative;}
+.main_menu .depth1{position:relative;border-top:1px solid #ccc;border-bottom:1px solid #ccc;}
+.main_menu .depth1 .depth1_list{display:flex;justify-content:space-evenly;}
+.main_menu .depth1 .depth1_item{}
+.main_menu .depth1 .depth1_item .depth1_link{display:block;padding:12px 20px;box-sizing:border-box;font-size:18px;line-height:normal;font-weight:600;letter-spacing:0;color:#222;text-decoration:none;}
+
+/* container */
+#container{position:relative;padding:40px 0;}
+#contents{position:relative;}
+
+/* footer */
+#footer{position:relative;background-color:#ddd;}
+#footer .footer_inner{padding:20px 10px;}
+#footer .copyright{text-align:center;}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>html공부하기</title>
+</head>
+<body>
+    목차
+    <ol>
+        <li><a href="./ex01.html">01.h1~h6요소</a></li>
+        <li><a href="./ex02.html">02.p요소, br요소, blockquote요소, q요소, strong,b,em,i요소</a></li>
+        <li><a href="./ex03.html">03.ol ul 요소</a></li>
+        <li><a href="./ex04.html">04.a요소</a></li>
+        <li><a href="./ex05.html">05.테이블</a></li>
+        <li><a href="./ex06.html">06.테이블 모든요소</a></li>
+        <li><a href="./ex07.html">07.폼(form)요소</a></li>
+        <li><a href="./ex08.html">08.폼(form)요소-input(checkbox,radio)</a></li>
+    </ol>
+
+    <hr>
+
+    <h1>html공부하기</h1>
+    <h2>폼(form)요소</h2>
+    <h3>input태그-checkbox</h3>
+    <input type="checkbox" id="ck01" name="hobby" value="read"><label for="ck01">독서</label>
+    <input type="checkbox" id="ck02" name="hobby" value="exercise"><label for="ck02">운동</label>
+    <input type="checkbox" id="ck03" name="hobby" value="travel" checked><label for="ck03">여행</label>
+
+    <h3>input태그-checkbox</h3>
+    <input type="radio" name="fruit" id="radio01" value="apple"><label for="radio01">사과</label>
+    <input type="radio" name="fruit" id="radio02" value="grape"><label for="radio02">포도</label>
+    <input type="radio" name="fruit" id="radio03" value="oragne"><label for="radio03">오렌지</label>
+    <br>
+    <input type="radio" name="month" id="jan" value="Jan"><label for="jan">1월</label>
+    <input type="radio" name="month" id="fab" value="Fab" checked><label for="fab">2월</label>
+    <input type="radio" name="month" id="mar" value="Mar"><label for="mar">3월</label>
+
+    <h3>select</h3>
+    <select name="" id="">
+        <optgroup label="이통3사">
+            <option>이동통신사</option>
+            <option value="sk">SKT</option>
+            <option value="kt">KT</option>
+            <option value="lg">LGU+</option>
+            
+        </optgroup>
+            <optgroup label="알뜰폰">
+                <option value="et_sk">알뜰폰 SKT</option>
+                <option value="et_kt">알뜰폰 KT</option>
+                <option value="et_lg">알뜰폰 LGU+</option>
+            </optgroup>
+    </select>
+
+    <h3>textarea</h3>
+    <textarea name="" id="" placeholder="플레이스홀더" rows="8" cols="80">
+        여기 값이 들어갑니다
+        다음줄에도 값이 들어갑니다
+        textarea 속의 모든 공백이 그대로 표출됩니다.
+    </textarea>
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/* 2025.02 - 장희용 */
+
+/* sub */
+
+#container{}
+/* aside */
+#container #side{float:left;width:160px;box-sizing:border-box;}
+#container #side .aside_title{display:table;width:100%;min-height:60px;margin-bottom:8px;background-color:#ddd;}
+#container #side .aside_title .title_inner{display:table-cell;padding:6px 10px;text-align:center;vertical-align:middle;font-size:17px;font-weight:600;}
+#container #side .aside_title h2{font-size:inherit;font-weight:inherit;line-height:normal;}
+
+#container #side .aside_menu{position:relative;}
+#container #side .aside_menu .depth1{}
+#container #side .aside_menu .depth1_item:nth-child(n+2){margin-top:5px;}
+#container #side .aside_menu .depth1_item .depth1_link{display:block;padding:8px 10px;border:1px solid #ddd;font-size:15px;}
+#container #side .aside_menu .depth1_item .depth1_link:hover{text-decoration:underline;}
+
+/* main */
+#container #main{float:right;width:calc(100% - 160px);padding-left:20px;box-sizing:border-box;}
+#container #main .sub_head{position:relative;}
+#container #main .sub_head .sub_title{font-size:20px;font-weight:600;}
+#container #main .sub_head .sub_title h3{font-size:inherit;font-weight:inherit;line-height:normal;}
+
+#container #main .sub_head .path{float:right;}
+#container #main .sub_head .path_list{font-size:0;line-height:0;}
+#container #main .sub_head .path_item{display:inline-block;vertical-align:top;position:relative;}
+#container #main .sub_head .path_item:nth-child(n+2){padding-left:20px;}
+#container #main .sub_head .path_item:nth-child(n+2):before{display:block;content:'';position:absolute;top:calc(50% - 5px);left:2px;width:8px;height:8px;box-shadow:2px 2px #999;transform:rotate(-45deg);}
+#container #main .sub_head .path_item .path_link{display:block;font-size:14px;line-height:normal;}
+
+
+

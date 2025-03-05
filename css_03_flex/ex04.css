@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+/* flex */
+
+.flex{display:flex;flex-direction:row;justify-content:space-evenly; align-items:flex-start; min-height:250px;width:500px;border:1px solid #000;color:#fff;font-weight:600;}
+.flex + .flex{margin-top:30px;}
+.flex.row{display:flex;flex-direction:row;}
+.flex.col{display:flex;flex-direction:column;}
+
+[class^="item"]{padding:20px;text-align:center;background-color:#333;}
+.item01{order:1;}
+.item02{order:2;}
+.item03{order:3;}
+.item04{order:4;}
+.item05{order:5;}
+
+
+

@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/* 2025.02 - 장희용 */
+
+/* main */
+
+#container{}
+#container .img_box{float:left;width:300px;padding-left:20px;box-sizing:border-box;font-size:0;line-height:0;}
+#container .img_box .profile_img{}
+
+#container .text_box{float:right;width:calc(100% - 300px);padding-left:40px;box-sizing:border-box;}
+#container .text_box p{font-size:17px;word-break:keep-all;}
+#container .text_box p + p{margin-top:20px;}
+#container .text_box .sub_title{font-weight:700;}
+#container .text_box .btn{display:inline-block;margin-top:30px;padding:4px 10px;border:1px solid #666;border-radius:4px;font-size:15px;}
